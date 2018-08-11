@@ -3,7 +3,17 @@ guid: 9dd77d759a5842942a3237232cb7385e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - timerText: {instanceID: 0}
+  - InScene_timerText: {instanceID: 0}
+  - Room05_Muur: {instanceID: 0}
+  - Room05_Text: {instanceID: 0}
+  - Room1_Lights: {instanceID: 0}
+  - Room1_Path: {instanceID: 0}
+  - ValObject: {instanceID: 0}
+  - Room1_Rain: {instanceID: 0}
+  - Room2_Obstacles: {instanceID: 0}
+  - mixer: {fileID: 24100000, guid: 1fe042bbb6ac4c24c96e582ec73892ed, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Respawn_Border
   - Room2_Obstacles
-  - Rain
+  - Room1_Rain
   layers:
   - Default
   - TransparentFX

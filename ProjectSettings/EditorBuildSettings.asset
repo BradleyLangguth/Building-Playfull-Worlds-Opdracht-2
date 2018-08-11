@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/Scene\xB4s/Menu.unity"
+    path: Assets/Scenes/Menu.unity
     guid: 62eeba09af969fd4db8b12a5cc957e17
   - enabled: 1
-    path: "Assets/Scene\xB4s/Game.unity"
+    path: Assets/Scenes/Game.unity
     guid: f30f9e919ac4e6f4c9717e72bbd369a0
   - enabled: 1
-    path: "Assets/Scene\xB4s/Dead.unity"
+    path: Assets/Scenes/Dead.unity
     guid: 063615c3bad56a74cb46eabbe1a3715c
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 3ed7201631b04b14fa0130a495b24dd1
   m_configObjects: {}

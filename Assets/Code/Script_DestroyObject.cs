@@ -5,9 +5,10 @@ using UnityEngine;
 public class Script_DestroyObject : MonoBehaviour 
 {
 
+
     void OnCollisionEnter (Collision col)
     {
-        if(col.gameObject.tag=="Rain") 
+        if(col.gameObject.tag=="Room1_Rain") 
         {
             Destroy(col.gameObject);
         }
@@ -16,6 +17,7 @@ public class Script_DestroyObject : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
+
 
     }
 

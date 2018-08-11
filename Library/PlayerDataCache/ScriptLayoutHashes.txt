@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Game.unity
 Assets/Scenes/Dead.unity
+Assets/Scenes/YouWin.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -132,8 +133,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Utility.DragRigidbody
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.Joystick
-910cd6edf7351ae8d5f9e9f70d2d1b9c Assembly-CSharp.dll:.Script_Timer
-3f2874e87f8dfe85a777c45732dfe8f2 Assembly-CSharp.dll:.Script_AudioTrigger
+5b787205f78fb3e5de5d8302c0f62636 Assembly-CSharp.dll:.Script_Timer
+8a1d1eae93c30ba8a055de9660c0f57e Assembly-CSharp.dll:.Script_AudioTrigger
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 37bf4d6a6d424731cb4a9b998783e5c6 Assembly-CSharp.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp.dll:UnityStandardAssets.Utility.ActivateTrigger

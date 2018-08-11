@@ -4,23 +4,26 @@ using UnityEngine;
  
 public class Script_AudioTrigger : MonoBehaviour 
 {
-    public AudioClip yourAudioClip;
+    public AudioClip SoundToPlay;
+    public float Volume;
+    AudioSource audio;
+    public bool alreadyPlayed = false;
     
-    public float Afstand;
-    public GameObject Obstakel;
-    public GameObject Player;
     
- void Update()
- {
-    Afstand = Vector3.Distance(Obstakel.transform.position,Player.transform.position);
-    
-    if(Afstand < 3)
+    void Start () 
     {
-            Debug.Log(Afstand);
-            GetComponent<AudioSource> ().clip = yourAudioClip;
-            GetComponent<AudioSource> ().Play ();
+        audio = GetComponent<AudioSource>();
     }
+    
+    void OnTriggerEnter()
+    {
+        audio.PlayOneShot(SoundToPlay, Volume);
+        //if (!alreadyPlayed)
+        //{
+        //    audio.PlayOneShot(SoundToPlay, Volume);
+        //    alreadyPlayed = true;
+        //}
  
- }
+    }  
 
 }
