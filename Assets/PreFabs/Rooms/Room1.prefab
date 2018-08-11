@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 4019835719405302}
   - component: {fileID: 108005120282175868}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Room1_DeurLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 54644809403120366}
   - component: {fileID: 59512505292901618}
   - component: {fileID: 64620717744281140}
+  - component: {fileID: 65768739965182570}
   m_Layer: 14
   m_Name: Deur
   m_TagString: Untagged
@@ -161,7 +162,7 @@ GameObject:
   - component: {fileID: 4095308459253970}
   - component: {fileID: 108991360454376840}
   m_Layer: 9
-  m_Name: Directional Light (1)
+  m_Name: Room1_DirectionalLight2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +178,7 @@ GameObject:
   - component: {fileID: 4001815098685930}
   - component: {fileID: 108761968086614138}
   m_Layer: 9
-  m_Name: Directional Light
+  m_Name: Room1_DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -485,8 +486,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: eaeb4c1d17b4fb1468585a6764edbaec, type: 2}
-  - {fileID: 2100000, guid: eaeb4c1d17b4fb1468585a6764edbaec, type: 2}
+  - {fileID: 2100000, guid: 76d5b82c34d33b54d8c84e3ad91769f7, type: 2}
+  - {fileID: 2100000, guid: 76d5b82c34d33b54d8c84e3ad91769f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -965,12 +966,24 @@ MeshCollider:
   m_GameObject: {fileID: 1460373240776192}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 4a38286636814974ebe3821f0c87cc15, type: 3}
+--- !u!65 &65768739965182570
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1460373240776192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.975312, y: 107.08567, z: 202.44962}
+  m_Center: {x: 4.3612914, y: 0.0002822876, z: -0.0003814697}
 --- !u!102 &102646310649563898
 TextMesh:
   serializedVersion: 3
