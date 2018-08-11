@@ -36,13 +36,14 @@ GameObject:
   - component: {fileID: 4546791749815592}
   - component: {fileID: 136570669392054246}
   - component: {fileID: 95013431363625706}
+  - component: {fileID: 54694052075804682}
   - component: {fileID: 114315351987381886}
   - component: {fileID: 114995303190031634}
   - component: {fileID: 114401230419776680}
   - component: {fileID: 114189500937123364}
+  - component: {fileID: 114739721793783096}
   - component: {fileID: 82114894634530702}
   - component: {fileID: 143005722720860178}
-  - component: {fileID: 54694052075804682}
   m_Layer: 11
   m_Name: MaleFreeSimpleMovement1
   m_TagString: Player
@@ -992,7 +993,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1021598187478862}
   m_LocalRotation: {x: -0, y: -0.7071069, z: -0, w: -0.70710677}
-  m_LocalPosition: {x: 6.2, y: 0.05, z: 0}
+  m_LocalPosition: {x: 6, y: 0.05, z: 0}
   m_LocalScale: {x: 3.7706292, y: 3.7706213, z: 3.77063}
   m_Children:
   - {fileID: 4145470478808654}
@@ -1618,6 +1619,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 681a3d24f96c8c94e92279feef92a403, type: 2}
+--- !u!114 &114739721793783096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1021598187478862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7463ae4edd59b534db4f329a8ac20fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: NEUTRAL
 --- !u!114 &114882497055867648
 MonoBehaviour:
   m_ObjectHideFlags: 1
