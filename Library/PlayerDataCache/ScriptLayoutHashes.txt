@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-D:/Unity/Projects/BPW Opdracht 2/Building Playfull Worlds, Opdacht 2/Build/Build.exe
+D:/Unity/Projects/BPW Opdracht 2 - Backup/Building Playfull Worlds, Opdacht 2/Build/Build.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Game.unity
@@ -198,6 +198,6 @@ a8796ecdc9d5c260bbe32f30c4b10708 Assembly-CSharp.dll:UnityStandardAssets.CrossPl
 b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp.dll:UnityStandardAssets.Vehicles.Ball.Ball
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 cd0167d7ce4ff561cc6218371f7c3c68 Assembly-CSharp.dll:.CameraLogic
+04444722d34f9cd9ffd50cd1cfb5179a Assembly-CSharp.dll:.Script_FSM
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Utility.FPSCounter
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-04444722d34f9cd9ffd50cd1cfb5179a Assembly-CSharp.dll:.Script_FSM

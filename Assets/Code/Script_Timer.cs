@@ -120,26 +120,6 @@ public class Script_Timer : MonoBehaviour
             BigRoomsSnapshot.TransitionTo (5.0f);  
         }
         
-        
-        
-        //Audio
-        
-        
-        
-        
-        //if(Input.GetKeyDown(KeyCode.Space))
-		//{
-		//	mixer.ClearFloat ("MasterVolume"); //met dit stukje code reset hij weer nr het original zodat de transition naar de nieuwe snapshot werkt
-		//	BigRoomsSnapshot.TransitionTo (.5f);
-		//}
-
-		//if(Input.GetMouseButton(0))
-		//{
-		//	float currentVolume;
-		//	mixer.GetFloat("MasterVolume", out currentVolume);			//eerste is de exposed var
-
-		//	mixer.SetFloat("MasterVolume", currentVolume + 0.1f);
-		//}
                 
 
         
